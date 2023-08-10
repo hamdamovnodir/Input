@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(186, 93, 232, 0.671);
+}
+
+.main_card {
+  backdrop-filter: blur(70px);
+  background-color: rgba(127, 211, 215, 0.911);
+  border: 2px solid rgba(255, 255, 255, 0.652);
+  width: 440px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.input1 > input {
+  margin-top: -50px;
+  width: 250px;
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid rgb(49, 185, 206);
+  padding-left: 10px;
+}
+.input_1 > input {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid rgb(49, 185, 206);
+  padding-left: 10px;
+}
+.input2 {
+  position: relative;
+}
+.input2 > input {
+  margin-top: 20px;
+  width: 250px;
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid rgb(49, 185, 206);
+  padding-left: 10px;
+}
+
+.icon {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  margin-left: 10px;
+  color: rgb(51, 52, 52) !important;
+}
+
+.input3 {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input3 > input {
+  margin-right: 15px;
+  width: 18px;
+  height: 18px;
+}
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 30px;
+  width: 260px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(37, 117, 142);
+  background-color: rgb(26, 91, 69);
+  color: white;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(254, 255, 255);
+  z-index: 2;
+  top: 120px;
+  left: 90px;
+}
+
+.error {
+  border-bottom: 2px solid red;
+  box-shadow: 1px 1px 2px red;
+}
+
+.type{
+  color: brown;
+}
